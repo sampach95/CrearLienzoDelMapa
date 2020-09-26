@@ -1,5 +1,5 @@
 # Crear Lienzo del Mapa
-##Con las librerías previamente cargadas como lo vimos en el video correspondiente.
+## Con las librerías previamente cargadas como lo vimos en el video correspondiente.
 
 ```
 <html>
@@ -13,7 +13,7 @@
   integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
   crossorigin=""></script>
 ```
- ##Continuamos abriendo una etiqueta "<style>"
+ ## Continuamos abriendo una etiqueta style
     
 ```
 	<style>
@@ -29,18 +29,19 @@ En ella declararemos el estilo del “lienzo del mapa”, utilizamos un selector
 Las propiedades Height y width: serán el ancho y el alto que ocupara el lienzo del mapa. El valor que toma puede estar expresado en px o porcentaje. En este caso el 100% indica que el lienzo del mapa ocupará toda la pantalla.
 La propiedad border, agrega un marco alrededor del lienzo del mapa, el valor solid indica que se visualizará un color solido sin transparencias, el valor 2px indica el grosor del marco y el valor black es el color del marco.
 
-##Cerramoss la etiqueta head, para iniciar a escribir el cuerpo de la pagina, para eso abrimos la etiqueta body, y acontinuacion usamos la etiqueta <div > para declarar que ahí se alojara nuestro mapa utilizando la instrucción “id”cerramos la etiqueta div.
+## Cerramoss la etiqueta head, para iniciar a escribir el cuerpo de la pagina, para eso abrimos la etiqueta body, y acontinuacion usamos la etiqueta <div > para declarar que ahí se alojara nuestro mapa utilizando la instrucción “id”cerramos la etiqueta div.
 
 
 ```
 </head>
 <body>
 <div id="mapDIV"></div>
+ <script>
 ```
-##Una vez creado el <div>, abrimos la etiqueta <script> que nos permite utilizar características de Java Script en páginas web.
-Declaramos la variable “map”, después de la igualdad estará el contenido de la misma
+## Una vez creado el div, abrimos la etiqueta script que nos permite utilizar características de Java Script en páginas web.
+Declaramos la variable map, después de la igualdad estará el contenido de la misma
 
-```
+``` javascript
      var map = L.map('mapDIV', {
 		center:[17.8655, -99.8382],
 		zoom:12
@@ -57,7 +58,7 @@ Separado por un punto se escribe map, que indica que vamos a trabajar en la visu
     Si queremos que la visualización sea local el número será mayor, y para una visualización mas regional utilizamos un número menor -->
 Cerramos todos los paréntesis y finalizamos con punto y coma
 
-##Declaramos la variable scale, después de la igualdad estará en contenido de la misma.
+## Declaramos la variable scale, después de la igualdad estará en contenido de la misma.
 
 ```
 var scale = L.control.scale({
