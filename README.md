@@ -78,3 +78,7 @@ Y por el momento, cerramos la etiqueta script, body y html
 </body>
 </html>
 ```
+
+## Screenshot
+
+![screenshot](https://raw.githubusercontent.com/sampach95/Pruebas_CodigoComentado/master/LienzodelMapa.jpg "Screenshot showing different applications of the library")
