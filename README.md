@@ -52,11 +52,10 @@ Primero” L.map”, la “L” hace referencia a la librería de Leaflet, se us
 
 Separado por un punto se escribe map, que indica que vamos a trabajar en la visualización del lienzo del mapa, y nos permite hacer modificaciones a la forma en el que estará representado, en este caso, escribimos:
 
-    Center, y entre corchetes, las coordenadas del centro de nuestro mapa, esto facilita la experiencia del usuario, ya que cuando abra la pagina del mapa este estará      situado en una ubicación geográfica determinada.
+  - Center, y entre corchetes, las coordenadas del centro de nuestro mapa, esto facilita la experiencia del usuario, ya que cuando abra la pagina del mapa este estará      situado en una ubicación geográfica determinada.
    
-    Zoom, se utiliza para determinar cual será la vista inicial del mapa. Esta característica admite únicamente números enteros. 
-    Si queremos que la visualización sea local el número será mayor, y para una visualización mas regional utilizamos un número menor -->
-Cerramos todos los paréntesis y finalizamos con punto y coma
+   - Zoom, se utiliza para determinar cual será la vista inicial del mapa. Esta característica admite únicamente números enteros. Si queremos que la visualización sea local el número será mayor, y para una visualización mas regional utilizamos un número menor
+Cerramos todos los paréntesis y finalizamos con punto y coma.
 
 ## Declaramos la variable scale, después de la igualdad estará en contenido de la misma.
 
