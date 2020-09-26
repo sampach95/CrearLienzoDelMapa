@@ -1,4 +1,7 @@
 # Crear Lienzo del Mapa
-Iniciamos abriendo las etiqueta <html> y <head>
+Iniciamos abriendo las etiqueta html y head
+
 ```<html>
-<head>```
+    <head>```
+    
+ Con las librerías previamente cargadas como lo vimos en el video correspondiente.
