@@ -15,7 +15,7 @@
 ```
  ## Continuamos abriendo una etiqueta style
     
-```
+``` html
 	<style>
 	#mapDIV {
 	height: 100%;
