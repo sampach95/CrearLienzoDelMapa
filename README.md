@@ -32,7 +32,7 @@ La propiedad border, agrega un marco alrededor del lienzo del mapa, el valor sol
 ## Cerramoss la etiqueta head, para iniciar a escribir el cuerpo de la pagina, para eso abrimos la etiqueta body, y acontinuacion usamos la etiqueta <div > para declarar que ahí se alojara nuestro mapa utilizando la instrucción “id”cerramos la etiqueta div.
 
 
-```
+``` html
 </head>
 <body>
 <div id="mapDIV"></div>
@@ -60,7 +60,7 @@ Cerramos todos los paréntesis y finalizamos con punto y coma
 
 ## Declaramos la variable scale, después de la igualdad estará en contenido de la misma.
 
-```
+``` javascript
 var scale = L.control.scale({
 	'imperial':false
 	});
@@ -74,7 +74,7 @@ A continuación llamamos la variable “scale” y escribimos la instrucción �
 
 Y por el momento, cerramos la etiqueta script, body y html
 
-```
+```html
  </script>
 </body>
 </html>
