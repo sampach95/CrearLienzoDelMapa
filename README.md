@@ -1,6 +1,4 @@
-# Pruebas_CodigoComentado
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+# Crear Lienzo del Mapa
+Iniciamos abriendo las etiqueta <html> y <head>
+```<html>
+<head>```
