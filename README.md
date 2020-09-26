@@ -1,7 +1,7 @@
 # Crear Lienzo del Mapa
 ## Con las librerías previamente cargadas como lo vimos en el video correspondiente.
 
-```
+``` html
 <html>
 <head>
 <meta charset="utf-8">
